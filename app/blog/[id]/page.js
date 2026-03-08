@@ -6,8 +6,7 @@ async function page({ params }) {
     let posts = data;
     const { id } = await params
     let post = posts[id-1];
-    
-    
+   
 
 
     return (

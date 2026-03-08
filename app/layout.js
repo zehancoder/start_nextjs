@@ -27,6 +27,8 @@ export default function RootLayout({ children }) {
           <Link href={'/'}>LOGO</Link>
           <Link href={'/'}>Home</Link>
           <Link href={'/blog'}>Blog</Link>
+          <Link href={'/content'}>Content</Link>
+
         </div>
         {children}
       </body>
